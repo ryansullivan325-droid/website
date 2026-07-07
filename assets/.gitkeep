@@ -1,0 +1,41 @@
+# Assets Folder
+
+This folder contains all project images for the website.
+
+## Images to Add
+
+Add your landscape project photos here:
+
+- `AB4203CE-12F4-4CF1-9ED9-A8B4213910DA.jpeg` - Truck and excavator
+- `6F3993D0-D71B-4B42-9894-93CFAB3B61FB.jpeg` - Raised paver patio with retaining wall
+- `13C6E5DA-D83E-4694-9923-4CD209265D31.jpeg` - Large paver patio installation
+- `D36668C0-96FC-4831-AE59-27A2E37278EE.jpeg` - Finished lawn and outdoor living space
+- `90E78146-692A-4A88-831D-6E9302BBA6D6.jpeg` - Paver walkway and patio
+- `D8937F17-4DC4-4419-8D82-FE81B545715C.jpeg` - Aerial retaining wall
+- `37F12C78-A982-44EA-BB46-E0B76EB8B869.jpeg` - Wet paver patio
+- `34112484-C16A-414F-B2D9-BA6638617CE4.jpeg` - Hydroseeded lawn
+- `FEC88282-708A-4B77-93BA-F91E0F43AB06.jpeg` - Retaining wall and deck
+- `DB9CA640-E00A-4CAD-A530-7114143BA3C3.jpeg` - Skid steer loading dump truck
+
+## How to Add Images
+
+### Via GitHub Web Interface:
+1. Go to your repository
+2. Click **Add file** → **Upload files**
+3. Select all your image files
+4. Commit the changes
+
+### Via Command Line:
+```bash
+# Clone your repo
+git clone https://github.com/ryansullivan325-droid/website.git
+cd website
+
+# Copy your images into the assets folder
+cp /path/to/your/images/* assets/
+
+# Add and commit
+git add assets/
+git commit -m "Add project images"
+git push
+```
